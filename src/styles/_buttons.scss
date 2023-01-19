@@ -1,0 +1,42 @@
+button {
+  padding: calc(var(--gap) / 4) var(--gap);
+  border-radius: calc(var(--gap) / 2);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-danger {
+  background-color: var(--danger-400);
+  border: 1px solid var(--danger-600);
+  color: var(--danger-600);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-300);
+}
+
+.btn-danger:active {
+  background-color: var(--danger-300);
+}
+
+
+.btn-submit {
+  background-color: var(--blue-500);
+  border-color: var(--blue-500);
+  color: var(--white);
+  min-width: 125px;
+  min-height: 40px;
+  font-size: 1rem;
+}
+
+.btn-submit:hover {
+  background-color: var(--blue-300);
+  border-color: var(--blue-300);
+}
+
+.btn-submit:active {
+  background-color: var(--blue-600);
+  border-color: var(--blue-600);
+}
