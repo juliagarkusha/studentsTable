@@ -39,7 +39,6 @@ class Controller {
       .create(data)
       .then((newStudent) => {
         this.StudentsTableView.add(newStudent);
-        console.log('debug newStudent: ', newStudent);
       })
   }
 
