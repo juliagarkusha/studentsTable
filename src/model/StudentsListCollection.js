@@ -1,3 +1,5 @@
+import StudentsAPI from "./StudentsAPI";
+
 class StudentsListCollection {
   #list = [];
 
@@ -48,3 +50,5 @@ class StudentsListCollection {
       })
   }
 }
+
+export default StudentsListCollection;

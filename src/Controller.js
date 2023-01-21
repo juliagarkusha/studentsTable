@@ -1,3 +1,7 @@
+import StudentAddFormView from "./view/StudentAddFormView";
+import StudentsListCollection from "./model/StudentsListCollection";
+import StudentsTableView from "./view/StudentsTableView";
+
 class Controller {
   constructor(rootEl) {
     this.rootEl = rootEl;
@@ -50,3 +54,5 @@ class Controller {
     this.studentsListCollection.update(updatedId, data);
   }
 }
+
+export default Controller;

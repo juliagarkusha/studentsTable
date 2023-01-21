@@ -49,3 +49,5 @@ class StudentAddFormView {
     `
   }
 }
+
+export default StudentAddFormView;
