@@ -145,3 +145,5 @@ class StudentsTableView {
     `
   }
 }
+
+export default StudentsTableView;

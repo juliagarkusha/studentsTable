@@ -53,3 +53,5 @@ class StudentsAPI {
     })
   }
 }
+
+export default StudentsAPI;
